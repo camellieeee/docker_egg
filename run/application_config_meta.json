@@ -1,0 +1,344 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/turing/docker_egg/docker_egg/config/config.default.js"
+  },
+  "vuessr": {
+    "layout": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+    "renderOptions": {
+      "basedir": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+      "runInNewContext": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "doctype": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "manifest": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectCss": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.local.js",
+    "injectJs": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectRes": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "crossorigin": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "mergeLocals": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "cache": {
+      "max": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js",
+      "maxAge": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "afterRender": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+    "dir": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+    "encoding": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "env": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "level": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+    "dir": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+    "maxAge": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "dynamic": "/Users/turing/docker_egg/docker_egg/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/turing/docker_egg/docker_egg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/turing/docker_egg/docker_egg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/turing/docker_egg/docker_egg/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+  "middleware": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+  "security": {
+    "csrf": {
+      "ignoreJSON": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+      "cookieName": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+      "sessionName": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+      "headerName": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/turing/docker_egg/docker_egg/config/config.default.js",
+      "value": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "protocolWhiteList": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+    "hsts": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "view": {
+    "cache": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "root": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/turing/docker_egg/docker_egg/node_modules/egg-view-vue-ssr/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "ignoreDirs": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "fastReady": "/Users/turing/docker_egg/docker_egg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/turing/docker_egg/docker_egg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/turing/docker_egg/docker_egg/node_modules/egg-development/config/config.default.js"
+  },
+  "logview": {
+    "dir": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "prefix": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logview/config/config.default.js",
+    "staticHost": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logview/config/config.default.js"
+  },
+  "webpack": {
+    "browser": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "webpackConfigList": "/Users/turing/docker_egg/docker_egg/config/config.local.js",
+    "port": "/Users/turing/docker_egg/docker_egg/node_modules/egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/turing/docker_egg/docker_egg/node_modules/egg-webpack/config/config.default.js",
+      "match": "/Users/turing/docker_egg/docker_egg/node_modules/egg-webpack/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/turing/docker_egg/docker_egg/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/turing/docker_egg/docker_egg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/turing/docker_egg/docker_egg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/turing/docker_egg/docker_egg/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/turing/docker_egg/docker_egg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/turing/docker_egg/docker_egg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/turing/docker_egg/docker_egg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/turing/docker_egg/docker_egg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/turing/docker_egg/docker_egg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/turing/docker_egg/docker_egg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/turing/docker_egg/docker_egg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/turing/docker_egg/docker_egg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/turing/docker_egg/docker_egg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/turing/docker_egg/docker_egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/turing/docker_egg/docker_egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/turing/docker_egg/docker_egg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/turing/docker_egg/docker_egg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/turing/docker_egg/docker_egg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/turing/docker_egg/docker_egg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/turing/docker_egg/docker_egg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/turing/docker_egg/docker_egg/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/turing/docker_egg/docker_egg/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "cors": "/Users/turing/docker_egg/docker_egg/node_modules/egg-cors/config/config.default.js",
+  "env": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "name": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "version": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "description": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "start": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "debug": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "clean": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "build": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "lint": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "fix": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "ii": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "axios": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-view-vue-ssr": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "extend": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "font-awesome": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "lodash-id": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "lowdb": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "moment": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "shortid": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "showdown": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "simplemde": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vue": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vue-hot-reload-api": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vue-i18n": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vue-material-input": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "vuex-router-sync": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "easywebpack-vue": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-logview": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "egg-webpack-vue": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "eslint-plugin-vue": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "ip": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "url": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "license": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "strict": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "depth": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "logging": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "port": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/turing/docker_egg/docker_egg/node_modules/egg/config/config.default.js"
+}

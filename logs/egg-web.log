@@ -1,0 +1,30 @@
+2018-11-09 18:27:32,970 INFO 13430 [egg:logger] init all loggers with options: {"dir":"/Users/turing/github/egg-vue-webpack-boilerplate-master/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-webpack-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 18:27:33,013 INFO 13430 [egg-schedule]: register schedule /Users/turing/github/egg-vue-webpack-boilerplate-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 18:27:33,013 INFO 13430 [egg-schedule]: register schedule /Users/turing/github/egg-vue-webpack-boilerplate-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 18:27:33,014 INFO 13430 [egg-multipart] stream mode enable
+2018-11-09 18:27:33,089 INFO 13430 [egg-static] starting static serve /public/ -> /Users/turing/github/egg-vue-webpack-boilerplate-master/public
+2018-11-09 18:27:33,093 INFO 13430 [egg-security] use csrf middleware
+2018-11-09 18:27:33,094 INFO 13430 [egg-security] use methodnoallow middleware
+2018-11-09 18:27:33,095 INFO 13430 [egg-security] use noopen middleware
+2018-11-09 18:27:33,096 INFO 13430 [egg-security] use nosniff middleware
+2018-11-09 18:27:33,097 INFO 13430 [egg-security] use xssProtection middleware
+2018-11-09 18:27:33,098 INFO 13430 [egg-security] use dta middleware
+2018-11-09 18:27:33,098 INFO 13430 [egg-security] compose 6 middlewares into one security middleware
+2018-11-09 18:27:33,120 INFO 13430 [egg:core] dump config after load, 8ms
+2018-11-09 18:27:33,143 INFO 13430 [egg-watcher:application] watcher start success
+2018-11-09 18:27:33,158 INFO 13430 [egg:core] dump config after ready, 10ms
+2018-11-09 18:50:29,701 INFO 14887 [egg:logger] init all loggers with options: {"dir":"/Users/turing/docker_egg/docker_egg/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-webpack-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 18:50:29,743 INFO 14887 [egg-schedule]: register schedule /Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 18:50:29,743 INFO 14887 [egg-schedule]: register schedule /Users/turing/docker_egg/docker_egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 18:50:29,744 INFO 14887 [egg-multipart] stream mode enable
+2018-11-09 18:50:29,837 INFO 14887 [egg-static] starting static serve /public/ -> /Users/turing/docker_egg/docker_egg/public
+2018-11-09 18:50:29,840 INFO 14887 [egg-security] use csrf middleware
+2018-11-09 18:50:29,841 INFO 14887 [egg-security] use methodnoallow middleware
+2018-11-09 18:50:29,842 INFO 14887 [egg-security] use noopen middleware
+2018-11-09 18:50:29,843 INFO 14887 [egg-security] use nosniff middleware
+2018-11-09 18:50:29,844 INFO 14887 [egg-security] use xssProtection middleware
+2018-11-09 18:50:29,845 INFO 14887 [egg-security] use dta middleware
+2018-11-09 18:50:29,845 INFO 14887 [egg-security] compose 6 middlewares into one security middleware
+2018-11-09 18:50:29,867 INFO 14887 [egg:core] dump config after load, 7ms
+2018-11-09 18:50:29,890 INFO 14887 [egg-watcher:application] watcher start success
+2018-11-09 18:50:29,904 INFO 14887 [egg:core] dump config after ready, 11ms
